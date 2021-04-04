@@ -74,6 +74,11 @@ class Examsly {
 		if (count($this->stack) > 1) {
 			$from = array_pop($this->stack);
 			$to = $this->stack[count($this->stack)-1];
+			
+			/*Fix: Need type declared at this point*/	
+			if(!$this->struct[$to])
+				$this->struct[$to] = [];
+			
 			$this->struct[$to][$from][] = $this->struct[$from];
 			unset($this->struct[$from]);
 		}
