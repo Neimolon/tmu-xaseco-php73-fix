@@ -181,8 +181,8 @@
     <trackhist_file>trackhist.txt</trackhist_file>
 
     <!-- the remaining settings are for TMF only          -->
-    <admin_client_version>2.11.19</admin_client_version>
-    <player_client_version></player_client_version>
+    <admin_client_version>2.11.11</admin_client_version>
+    <player_client_version>2.11.11</player_client_version>
     <default_rpoints></default_rpoints>
     <afk_force_spec>True</afk_force_spec>
     <clickable_lists>True</clickable_lists>

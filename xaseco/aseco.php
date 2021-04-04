@@ -29,6 +29,11 @@
  * Visit the official site at http://www.xaseco.org/
  */
 
+/*
+ * Modernizer FIX
+ */
+require_once('includes/modernizer.inc.php');
+
 /**
  * Include required classes
  */
